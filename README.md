@@ -33,6 +33,11 @@ Above hyper parameters are to tune the JVM to use the
 latest JVMCI JIT compiler rather than existing C1/C2 
 compilers in HotSpot VM.
 
+If you have standard Java installed, then make sure to 
+remove these parameters, and then run it. For example,
+
+`java -jar .\lab_1.jar 1000 10000 0.99 0.005 0.005 65000 1 2000 false`
+
 Sample run.bat file is also included for experiment. 
 The same file is used to analyse the differences 
 between each List implementation.
