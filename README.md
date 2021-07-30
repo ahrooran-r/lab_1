@@ -7,7 +7,7 @@ The run.bat file would look something like this:
 
 `java -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI 
 -XX:+UseJVMCICompiler -Dgraal.CompilerConfiguration=enterprise 
--jar .\lab_1.jar 1000 10000 0.99 0.005 0.005 65000 1 2000 false`
+-jar .\lab_1.jar 1000 10000 0.90 0.06 0.04 65000 1 2000 false`
 
 Take a close look at following part:
 
@@ -36,7 +36,7 @@ compilers in HotSpot VM.
 If you have standard Java installed, then make sure to 
 remove these parameters, and then run it. For example,
 
-`java -jar .\lab_1.jar 1000 10000 0.99 0.005 0.005 65000 1 2000 false`
+`java -jar .\lab_1.jar 1000 10000 0.90 0.06 0.04 65000 1 2000 false`
 
 Sample run.bat file is also included for experiment. 
 The same file is used to analyse the differences 
